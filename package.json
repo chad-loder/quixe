@@ -1,0 +1,28 @@
+{
+  "name": "quixe",
+  "version": "2.2.6",
+  "description": "Quixe: a Glulx VM interpreter in JavaScript, with its Glk layer (GlkApi), the Glk dispatch layer (GiDispa) and the blorb resource reader",
+  "license": "MIT",
+  "author": "Andrew Plotkin",
+  "homepage": "https://eblong.com/zarf/glulx/quixe/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkyrath/quixe.git"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.txt"
+  ],
+  "exports": {
+    "./quixe": "./src/quixe/quixe.js",
+    "./gi_dispa": "./src/quixe/gi_dispa.js",
+    "./gi_load": "./src/quixe/gi_load.js",
+    "./glkapi": "./src/glkote/glkapi.js",
+    "./gi_blorb": "./src/glkote/gi_blorb.js",
+    "./glkote": "./src/glkote/glkote.js",
+    "./dialog": "./src/glkote/dialog.js",
+    "./electrofs": "./src/glkote/electrofs.js",
+    "./package.json": "./package.json"
+  }
+}
